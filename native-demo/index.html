@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Angular Library in web components demo</title>
+        <link href="./style.css" rel="stylesheet" />
+        <link href="./main-theme.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <script src="zone.min.js"></script>
+
+        <div class="card">
+            There are three simple components from two component libraries on the card
+
+            <ecam-badge id="badge" class="component"></ecam-badge>
+
+            <ecam-input id="input" class="component" placeholder="badge text"></ecam-input>
+
+            <ecam-button id="button" class="component" onclick="onButtonClick()">
+                toggle badge color
+            </ecam-button>
+            <ecam-name></ecam-name>
+        </div>
+
+        <script src="ecam-badge.js"></script>
+        <script src="ecam-input.js"></script>
+        <script src="ecam-button.js"></script>
+        <script src="ecam-name.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Angular Library in web components demo</title>
+        <link href="./styles.css" rel="stylesheet" />
+        <link href="./main-theme.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css"></head>
+
+    <body>
+        <script src="custom-elements-es5-adapter.js"></script>
+
+        <script src="zone.min.js"></script>
+
+        <div class="card">
+            <!-- There are three simple components from two component libraries on the card
+
+            <ecam-badge id="badge" class="component"></ecam-badge>
+
+            <ecam-input id="input" class="component" placeholder="badge text"></ecam-input>
+ -->
+            <!-- <ecam-button id="button" class="component" onclick="onButtonClick()">
+                toggle badge color
+            </ecam-button>
+            <ecam-name></ecam-name> -->
+            <ecam-cost-vs-budget-widget></ecam-cost-vs-budget-widget>
+    <ecam-asset-vs-utilization-widget></ecam-asset-vs-utilization-widget>
+        </div>
+<!-- 
+        <script src="ecam-badge.js"></script>
+        <script src="ecam-input.js"></script>
+        <script src="ecam-button.js"></script>
+        <script src="ecam-name.js"></script> -->
+        <script src="ecam-cost-vs-budget-widget.js"></script>
+        <script src="ecam-asset-vs-utilization-widget.js"></script>
+        <!-- <script src="main.js"></script> -->
+    <script src="runtime.js" defer></script><script src="polyfills-es5.js" nomodule defer></script><script src="polyfills.js" defer></script><script src="main.js" defer></script></body>
+</html>

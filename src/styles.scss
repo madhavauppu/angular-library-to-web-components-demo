@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '../projects/angular-components-library/src/global-vars.scss';
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #fafbfc;
+}
+  .card {
+    background-color: #fff;
+    border: 1px #ccc solid;
+    border-radius: 4px;
+    padding: 32px;
+  }
+  .component {
+    margin-top: 20px;
+  }

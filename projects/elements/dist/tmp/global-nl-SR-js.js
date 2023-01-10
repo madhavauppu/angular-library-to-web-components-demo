@@ -1,0 +1,9 @@
+(window["myElements-7ed24d90-9092-11ed-a601-7f3ee16fe43d"]=window["myElements-7ed24d90-9092-11ed-a601-7f3ee16fe43d"]||[]).push([[287],{JFQ2:function(n,e){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+!function(n){n.ng=n.ng||{},n.ng.common=n.ng.common||{},n.ng.common.locales=n.ng.common.locales||{};const e=void 0;n.ng.common.locales["nl-sr"]=["nl-SR",[["a.m.","p.m."],e,e],e,[["Z","M","D","W","D","V","Z"],["zo","ma","di","wo","do","vr","za"],["zondag","maandag","dinsdag","woensdag","donderdag","vrijdag","zaterdag"],["zo","ma","di","wo","do","vr","za"]],e,[["J","F","M","A","M","J","J","A","S","O","N","D"],["jan.","feb.","mrt.","apr.","mei","jun.","jul.","aug.","sep.","okt.","nov.","dec."],["januari","februari","maart","april","mei","juni","juli","augustus","september","oktober","november","december"]],e,[["v.C.","n.C."],["v.Chr.","n.Chr."],["voor Christus","na Christus"]],1,[6,0],["dd-MM-y","d MMM y","d MMMM y","EEEE d MMMM y"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1} {0}",e,"{1} 'om' {0}",e],[",",".",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","\xa4\xa0#,##0.00;\xa4\xa0-#,##0.00","#E0"],"SRD","$","Surinaamse dollar",{AUD:["AU$","$"],CAD:["C$","$"],FJD:["FJ$","$"],JPY:["JP\xa5","\xa5"],SBD:["SI$","$"],SRD:["$"],THB:["\u0e3f"],TWD:["NT$"],USD:["US$","$"],XPF:[],XXX:[]},"ltr",function(n){let e=Math.floor(Math.abs(n)),o=n.toString().replace(/^[^.]*\.?/,"").length;return 1===e&&0===o?1:5},[[["middernacht","\u2019s ochtends","\u2019s middags","\u2019s avonds","\u2019s nachts"],e,e],[["middernacht","ochtend","middag","avond","nacht"],e,e],["00:00",["06:00","12:00"],["12:00","18:00"],["18:00","24:00"],["00:00","06:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);

@@ -1,0 +1,15 @@
+@cloudMatrix-CAM:registry=${AFAAS_URL}/api/npm/ibmcb-npm-local/
+//${AFAAS_HOSTNAME}/artifactory/api/npm/ibmcb-npm-local/:_password=${AFAAS_TOKEN}
+//${AFAAS_HOSTNAME}/artifactory/api/npm/ibmcb-npm-local/:username=${AFAAS_USER}
+//${AFAAS_HOSTNAME}/artifactory/api/npm/ibmcb-npm-local/:email=${AFAAS_USER}
+//${AFAAS_HOSTNAME}/artifactory/api/npm/ibmcb-npm-local/:always-auth=true
+@ibma:registry=${AFAAS_URL}/api/npm/res-ibma-npm/
+//${AFAAS_HOSTNAME}/artifactory/api/npm/ibmcb-npm-local/:_password=${AFAAS_USER_NPM_TOKEN}
+//${AFAAS_HOSTNAME}/artifactory/api/npm/ibmcb-npm-local/:username=${AFAAS_USER}
+//${AFAAS_HOSTNAME}/artifactory/api/npm/ibmcb-npm-local/:email=${AFAAS_USER}
+//${AFAAS_HOSTNAME}/artifactory/api/npm/ibmcb-npm-local/:always-auth=true
+@ibma:registry=${AFAAS_URL}/api/npm/res-ibma-npm/
+//${AFAAS_HOSTNAME}/artifactory/api/npm/res-ibma-npm/:_password=${AFAAS_USER_NPM_TOKEN}
+//${AFAAS_HOSTNAME}/artifactory/api/npm/res-ibma-npm/:username=${AFAAS_USER}
+//${AFAAS_HOSTNAME}/artifactory/api/npm/res-ibma-npm/:email=${AFAAS_USER}
+//${AFAAS_HOSTNAME}/artifactory/api/npm/res-ibma-npm/:always-auth=true

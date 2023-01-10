@@ -1,0 +1,6 @@
+/dist/angular-library-to-web-components-demo/**
+node_modules
+/.npmrc
+
+
+.DS_Store

@@ -1,0 +1,21 @@
+<div class="main">
+    <div class="heading-title" [ngClass]="{'minimized-view': !isBaseview }">
+        {{ chartTitle }}
+    </div>
+    <div>
+        <div *ngIf="isListView">
+            <p> {{ subTitle }} </p>
+        </div>
+
+        <div>
+            <ecam-cost-vs-budget 
+                [enableForecastByDefault]="enableForecastByDefault"
+                [showAddToGraph]="showAddToGraph"
+                [hideActions]="hideActions"
+                [batchSize]="batchSize"
+                [maxTicksLimit]="maxTicksLimit"
+                [chartOptions]="chartOptions">
+            </ecam-cost-vs-budget>
+        </div>
+    </div>
+</div>
