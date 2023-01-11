@@ -1,9 +1,0 @@
-(window["myElements-7ed24d90-9092-11ed-a601-7f3ee16fe43d"]=window["myElements-7ed24d90-9092-11ed-a601-7f3ee16fe43d"]||[]).push([[303],{"6NwI":function(e,o){
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-!function(e){e.ng=e.ng||{},e.ng.common=e.ng.common||{},e.ng.common.locales=e.ng.common.locales||{};const o=void 0;e.ng.common.locales.pt=["pt",[["AM","PM"],o,o],o,[["D","S","T","Q","Q","S","S"],["dom.","seg.","ter.","qua.","qui.","sex.","s\xe1b."],["domingo","segunda-feira","ter\xe7a-feira","quarta-feira","quinta-feira","sexta-feira","s\xe1bado"],["dom.","seg.","ter.","qua.","qui.","sex.","s\xe1b."]],o,[["J","F","M","A","M","J","J","A","S","O","N","D"],["jan.","fev.","mar.","abr.","mai.","jun.","jul.","ago.","set.","out.","nov.","dez."],["janeiro","fevereiro","mar\xe7o","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro"]],o,[["a.C.","d.C."],o,["antes de Cristo","depois de Cristo"]],0,[6,0],["dd/MM/y","d 'de' MMM 'de' y","d 'de' MMMM 'de' y","EEEE, d 'de' MMMM 'de' y"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1} {0}",o,o,o],[",",".",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","\xa4\xa0#,##0.00","#E0"],"BRL","R$","Real brasileiro",{AUD:["AU$","$"],JPY:["JP\xa5","\xa5"],PTE:["Esc."],RON:[o,"L"],SYP:[o,"S\xa3"],THB:["\u0e3f"],TWD:["NT$"],USD:["US$","$"]},"ltr",function(e){let o=Math.floor(Math.abs(e));return o===Math.floor(o)&&o>=0&&o<=1?1:5},[[["meia-noite","meio-dia","da manh\xe3","da tarde","da noite","da madrugada"],o,o],[["meia-noite","meio-dia","manh\xe3","tarde","noite","madrugada"],o,o],["00:00","12:00",["06:00","12:00"],["12:00","19:00"],["19:00","24:00"],["00:00","06:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);

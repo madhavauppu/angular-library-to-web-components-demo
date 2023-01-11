@@ -1,11 +1,10 @@
 import {enableProdMode} from '@angular/core';
 import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
-import { ButtonWidgetElementModule } from './angular-components-library/button-widget/button-widget.module';
-
+import { NameWidgetElementModule } from './name-widget.module';
 
 
 enableProdMode();
 
 platformBrowserDynamic()
-    .bootstrapModule(ButtonWidgetElementModule)
+    .bootstrapModule(NameWidgetElementModule)
     .catch(err => console.error(err));

@@ -1,8 +1,7 @@
 import {enableProdMode} from '@angular/core';
 import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
-import { ButtonWidgetElementModule } from './angular-components-library/button-widget/button-widget.module';
 
-
+import { ButtonWidgetElementModule } from './button-widget.module';
 
 enableProdMode();
 
