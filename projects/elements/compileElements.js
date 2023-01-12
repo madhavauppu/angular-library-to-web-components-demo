@@ -16,7 +16,7 @@ function compileComponent(project, component) {
 
     const buildJsFiles = `ng run elements:build:production --aot --main=projects/elements/src/${project}/${component}/compile.ts`;
     const bundleIntoSingleFile = `cat dist/tmp/runtime.js dist/tmp/main.js > dist/tmp/ecam-${component}.js`;
-    const copyBundledComponent = `cp dist/tmp/ecam-${component}.js dist/components/`;
+    const copyBundledComponent = `cp dist/tmp/ecam-${component}.js ../../library/`;
     // const polyfillsEs5 = `cp dist/tmp/polyfills-es5.js dist/components/`;
     execSync(`${buildJsFiles} && ${bundleIntoSingleFile} && ${copyBundledComponent}` );
 }

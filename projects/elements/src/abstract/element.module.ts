@@ -8,8 +8,12 @@ export abstract class ElementModule {
         const ngElement = createCustomElement(component, {
             injector,
         });
+        if (!customElements.get(`${PREFIX}-${name}`)) {
 
-        customElements.define(`${PREFIX}-${name}`, ngElement);
+            customElements.define(`${PREFIX}-${name}`, ngElement);
+    
+          }
+        // customElements.define(`${PREFIX}-${name}`, ngElement);
     }
 
     ngDoBootstrap() {}
